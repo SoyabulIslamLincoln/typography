@@ -24,22 +24,23 @@ body {
     margin: 0;
     background-color: var(--black);
     color: white;
-    font-size: 50px;
+    font-size: 65px;
     font-family: "op-sans-bold";
     overflow: hidden;
 }
 .pikachu{
-    width: 50%;
+    width: 46%;
     position: absolute;
     bottom: 0;
-    right: -25%;
+    right: -22%;
+    stroke-opacity: 0;
 
 }
 .hello{
     position:absolute;
     left: 0;
     top: 0;
-    font-size:100px;
+    font-size:110px;
     color: white;
     opacity: 0.1;
     font-family: arial;
@@ -49,12 +50,60 @@ body {
 }
 .me{
     position:absolute;
-    left: 20%;
-    top: 40%;
-    font: size 40;
+    left: 31%;
+    top: 45%;
+    font-size: 45px;
     color: white;
     font-family: arial;
     
     
+
+}
+.name::first-letter{
+    position:absolute;
+    font-size: 135px;
+    color:var(--yellow);
+    font-family: "op-sans-bold";
+    font-weight: bolder;
+
+}
+.name{
+    position:absolute;
+    left: 25%;
+    top: 38%;
+    color:var(--yellow);
+    font-family: "op-sans-bold";
+    font-weight: bolder;
+    
+
+}
+.desc{
+    position:absolute;
+    left: 43%;
+    top: 63%;
+    font-size: 60px;
+    color: white;
+    font-family: "lobster";
+    
+}
+.love-text{
+    position:absolute;
+    right:35%;
+    top: 11%;
+    font-size:80px;
+    color: white;
+    opacity: 0.1;
+    font-family: "lobster";
+    
+
+}
+.love-name{
+    position:absolute;
+    right: 0;
+    top: 5%;
+    font-size:120px;
+    color: white;
+    opacity: 0.1;
+    font-family: "lobster";
 
 }
